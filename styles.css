@@ -1,0 +1,220 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f6;
+    color: #333;
+  }
+  
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: #f36756;
+  }
+  
+  h2, h3 {
+    color: #f36756;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #f36756;
+  }
+  
+  i {
+    margin-right: 10px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f5b8b1;
+  }
+  
+  header .logo h1 {
+    font-size: 2.5em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  nav ul li {
+    font-size: 1.2em;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+  }
+  
+  .signup-btn, .login-btn {
+    background-color: #f36756;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .signup-btn:hover, .login-btn:hover {
+    transform: scale(1.05);
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-image: url('bakery-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .large-logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.5em;
+    color: #f36756;
+  }
+  
+  .hero-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .explore-btn {
+    background-color: #f7e0df;
+    color: #f36756;
+    margin-right: 10px;
+  }
+  
+  .buy-btn {
+    background-color: #f7e0df;
+    color: #f36756;
+    margin: 20px auto 0;
+    display: block;
+  }
+  .buy-btn,.explore-btn{
+    transform: scale(1.05);
+  }
+  .about-us {
+    padding: 50px;
+    text-align: center;
+    background-color: #f6ccc8;
+  }
+  
+  .about-us p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  .cake-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: 0.3s;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 1.8em;
+  }
+  
+  .card button {
+    display: block;
+    margin: 20px auto 0;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .contact-us {
+    padding: 50px;
+    text-align: center;
+    background-color: #f8f5f6;
+  }
+  
+  .contact-us ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-us li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  footer {
+    background-color: #f5b8b1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-nav ul li {
+    font-size: 1.2em;
+  }
+  
+  .social-icons a {
+    font-size: 1.5em;
+    margin: 0 10px;
+    color: #f36756;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  
+  footer p {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }  

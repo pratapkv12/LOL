@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layers Of Love - Bakery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Layers of Love</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#cakes">Our Cakes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <input type="text" placeholder="Search..." class="search-bar">
+      <button class="signup-btn">Sign Up</button>
+      <button class="login-btn">Login</button>
+    </nav>
+  </header>
+  <section id="top" class="hero">
+    <div class="hero-text">
+      <h2 class="large-logo">Layers of Love</h2>
+      <p>Discover the taste of delicious, handmade cakes with the finest ingredients!</p>
+      <button class="explore-btn"><a href="#cakes">Explore Our Cakes</a></button>
+      <button class="buy-btn"><a href="#cakes">Buy Now</a></button>
+    </div>
+  </section>
+  <section id="about" class="about-us">
+    <h2>About Us</h2>
+    <p>At Layers of Love, we bring together the finest ingredients, passion for baking, and years of expertise to craft delightful cakes for every occasion. Whether you're celebrating a birthday, wedding, or just satisfying a sweet craving, we've got you covered!</p>
+  </section>
+  <section id="cakes" class="cake-cards">
+    <h class="large-logo">Our Cakes</h>
+    <div class="card">
+      <img src="cake1.jpg" alt="Cake 1">
+      <div class="card-content">
+        <h3>Chocolate Heaven</h3>
+        <p>Rich chocolate layered cake with creamy frosting.</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="cake2.jpg" alt="Cake 2">
+      <div class="card-content">
+        <h3>Vanilla Dream</h3>
+        <p>Classic vanilla cake with a twist of fresh cream and fruits.</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="cake3.jpg" alt="Cake 3">
+      <div class="card-content">
+        <h3>Strawberry Bliss</h3>
+        <p>A light and fluffy strawberry cake with whipped cream frosting.</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact-us">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to place an order, feel free to get in touch!</p>
+    <ul>
+      <li><i class="bi bi-telephone"></i> +91 12345 67890</li>
+      <li><i class="bi bi-envelope"></i> layersoflove@example.com</li>
+      <li><i class="bi bi-geo-alt"></i> No. 123, Bakery Street, Chennai, India</li>
+    </ul>
+  </section>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#cakes">Our Cakes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+    </div>
+    <p>&copy; 2024 Layers of Love. All rights reserved.</p>
+  </footer>
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
